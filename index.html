@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <title>Disease Detection System</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li style="float: right;">
+          <button class="nav-button">About us</button>
+          <button class="nav-button">Contact Nearest Doctor</button>
+        </li>
+      </ul>
+    </nav>
+    <h1 style="font-family: 'Anton', sans-serif;">Disease Detection System <span>&#10084;</span></h1>
+  </header>
+  <form id="symptom-checker">
+    <label for="body-part">Body Part:</label>
+    <select id="body-part" name="body-part">
+      <option value="">Select Body Part</option>
+      <option value="head">Head</option>
+      <option value="neck">Neck</option>
+      <option value="chest">Chest</option>
+      <option value="abdomen">Abdomen</option>
+      <option value="back">Back</option>
+      <option value="arms">Arms</option>
+      <option value="legs">Legs</option>
+    </select><br><br>
+    <label for="symptom-related">Symptoms related to:</label>
+    <select id="symptom-related" name="symptom-related">
+      <option value="">Select Symptoms related to:</option>
+    </select><br><br>
+    <label for="symptom">Symptom:</label>
+    <select id="symptom" name="symptom">
+      <option value="">Select Symptom:</option>
+    </select><br><br>
+    <input type="submit" value="Check Symptoms">
+  <script src="script.js"></script>
+</body>
+<div class="anatomy-container">
+  <div class="anatomy-diagram">
+    <div class="head" id="head" title="Head"></div>
+    <div class="neck" id="neck" title="Neck"></div>
+    <div class="body" id="body" title="Body"></div>
+    <div class="left-arm" id="left-arm" title="Left Arm"></div>
+    <div class="right-arm" id="right-arm" title="Right Arm"></div>
+    <div class="left-hand" id="left-hand" title="Left Hand"></div>
+    <div class="right-hand" id="right-hand" title="Right Hand"></div>
+    <div class="left-leg" id="left-leg" title="Left Leg"></div>
+    <div class="right-leg" id="right-leg" title="Right Leg"></div>
+    <div class="left-foot" id="left-foot" title="Left Foot"></div>
+    <div class="right-foot" id="right-foot" title="Right Foot"></div>
+  </div>
+</html>

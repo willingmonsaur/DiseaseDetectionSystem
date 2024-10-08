@@ -1,0 +1,360 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+header {
+  background-color: #f7f7f7;
+  padding: 10px;
+  height: 100px;
+  border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+.nav-button {
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-right: 10px;
+  color: #000;
+}
+
+.nav-button:hover {
+  background-color: #e7e7e7;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 40px;
+}
+
+h1 span {
+  color: #ff0000;
+}
+
+#symptom-checker {
+  width: 55%;
+  margin: 40px auto;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 90%;
+  padding: 10px;
+  margin: 0 auto 20px auto;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"], input[type="text"] {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="button"] {
+  width: 100%;
+  height: 30px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #3e8e41;
+}
+
+#weight, #age {
+  width: 45%;
+  margin-right: 10px;
+}
+
+#name {
+  width: 100%;
+}
+
+.weight-and-age-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.name-container {
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"], input[type="text"] {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="button"] {
+  width: 100%;
+  height: 30px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #3e8e41;
+}
+
+.weight-and-age-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.weight-and-age-container label {
+  width: 45%;
+  margin-right: 10px;
+}
+
+.weight-and-age-container input[type="number"] {
+  width: 45%;
+  margin-right: 10px;
+}
+
+.name-container {
+  margin-bottom: 20px;
+}
+
+.about-us-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+}
+
+.about-us-content {
+  background: #fff;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.about-us-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.anatomy-container {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 225px;
+  height: 400px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.anatomy-diagram {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.head {
+  position: absolute;
+  top: 20px;
+  left: 80px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #0000ff;
+  cursor: pointer;
+}
+
+.neck {
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  width: 20px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #0000ff;
+  cursor: pointer;
+}
+
+.body {
+  position: absolute;
+  top: 110px;
+  left: 50px;
+  width: 120px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #0000ff;
+  cursor: pointer;
+}
+
+.left-arm {
+  position: absolute;
+  top: 120px;
+  left: 10px;
+  width: 30px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #0000ff;
+  cursor: pointer;
+}
+
+.right-arm {
+  position: absolute;
+  top: 120px;
+  left: 182px;
+  width: 30px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #0000ff;
+  cursor: pointer;
+}
+
+.left-hand {
+  position: absolute;
+  top: 220px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #0000ff;
+  cursor: pointer;
+}
+
+.right-hand {
+  position: absolute;
+  top: 220px;
+  left: 182px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #0000ff;
+  cursor: pointer;
+}
+
+.left-leg {
+  position: absolute;
+  top: 270px;
+  left: 50px;
+  width: 30px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #0000ff;
+  cursor: pointer;
+}
+
+.right-leg {
+  position: absolute;
+  top: 270px;
+  left: 140px;
+  width: 30px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #0000ff;
+  cursor: pointer;
+}
+
+.left-foot {
+  position: absolute;
+  top: 370px;
+  left: 50px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #0000ff;
+  cursor: pointer;
+}
+
+.right-foot {
+  position: absolute;
+  top: 370px;
+  left: 140px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #0000ff;
+  cursor: pointer
+}
